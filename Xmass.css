@@ -52,6 +52,9 @@ a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     text-decoration: none;
+    margin-left: 30px;
+    padding-right: 10px;
+
 }
 a:hover{
     color: gold;
