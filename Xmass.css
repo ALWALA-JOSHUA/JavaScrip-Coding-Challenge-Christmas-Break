@@ -34,7 +34,7 @@ button:hover{
 }
 h1{
     color: rgb(34, 32, 21);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Poppins", serif;
     font-weight: bold;
 }
 h1:hover{
@@ -49,8 +49,8 @@ body:hover{
 }
 a{
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
+    font-family: "Poppins", serif;
+    font-weight: 900px;
     text-decoration: none;
     margin-left: 30px;
     padding-right: 10px;
@@ -58,6 +58,11 @@ a{
 }
 a:hover{
     color: gold;
+    text-decoration: underline;
+    border-color: #009ffd;
+}
+a:visited{
+    background-color: cadetblue;
 }
 .container{
     display: flex;
@@ -82,4 +87,7 @@ h2{
 }
 h2:hover{
     background-color: goldenrod;
+}
+a:visited{
+    color: blueviolet;
 }
